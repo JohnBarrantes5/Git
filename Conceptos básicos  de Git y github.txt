@@ -1,0 +1,20 @@
+Conceptos básicos  de Git y github
+
+Primer paso: Configuración inicial
+
+            Git config --global user.name
+                                user.email
+
+Segundo pago: Crear un repositorio y hacer e primer Commit
+
+            git init
+            git add
+            git commit -m
+
+    Otros comandos a tener en cuenta:
+
+            git status: verificar en que proceso se encuentra el repositorio
+            git rm y git rm -- cached: eliminar y remover         
+            git log: ver el historial del archivo
+        
+        
