@@ -1,0 +1,44 @@
+
+
+
+Conceptos básicos  de Git y github
+
+Primer paso: Configuración inicial
+
+            Git config --global user.name
+                                user.email
+
+Segundo pago: Crear un repositorio y hacer e primer Commit
+
+            git init
+            git add
+            git commit -m
+
+    Otros comandos a tener en cuenta:
+
+            git status: verificar en que proceso se encuentra el repositorio
+            git rm y git rm -- cached: eliminar y remover         
+            git log: ver el historial del archivo
+
+Tercer paso: Analizar cambios en los archivos de tu proyecto con git
+
+        git show
+        git diff
+        git log
+
+Reversar un cambio con reset y checkout: diferencias entre gif rm  y git reset
+
+        git rm: elimina archivos de git sin eliminar su historial del sistema de versiones
+                --cached: Elimina los archivos del staging y del proximo commit, pero los mantiene en dico duro
+                --force: Elimina los archivos de git y del disco duro
+
+
+        git reset: permite volver en el tiempo sin poder volver al futuro
+                --hard: borra toda la información del área de staging y de los commints
+                --soft: se borra el historial pero mantiene los archivos del área de staging para poder aplicar últimos cambios en un nuevo commit
+                --head: mueve cambios de staging a unstaged. se conservan los útimos cambios, el repositorio sigue teniendo el archivo solo con los cambio hechos en commit
+
+        git checkout    
+
+        
+        
