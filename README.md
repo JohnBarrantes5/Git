@@ -1,2 +1,1 @@
-# Git
-Explicación y comandos de Git
+Primera prueba con los comandos  de Git
